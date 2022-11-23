@@ -2,13 +2,13 @@ specVersion: 0.2.0
 name: parascan-subql-starter
 version: 1.0.0
 description: subql starter for parascan
-repository: "https://github.com/parascan/parascan-subql-starter"
+repository: "https://github.com/warewar1/parascan-subql-starter"
 schema:
   file: ./schema.graphql
 
 network:
-  endpoint: wss://basilisk.api.onfinality.io/public-ws
-  genesisHash: "0xa85cfb9b9fd4d622a5b28289a02347af987d8f73fa3108450e2b4a11c1ce5755"
+  endpoint: wss://192.227.174.177:8546
+  genesisHash: "0xf7a21fad9c169a13991b6b1ba28198105dfca2d8ef93c9e40fafb4640e5723c1"
 
 dataSources:
   - kind: substrate/Runtime
